@@ -204,4 +204,4 @@ function cicheng_getDirection(gridSize,snake,apples,direction){
 }
 
 
-ais['cicheng'] = cicheng_getDirection;
+ais['junyan'] = junyan_getDirection;
