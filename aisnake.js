@@ -6,11 +6,12 @@ function moreUpdate(){
         direction = "r"
     }
     if (!gameOver){
-        direction = ais['cicheng'](gridSize,snake,apples,direction);
-        if (ai == ""){
+        // direction = ais['cicheng'].getDirection(gridSize,snake,apples,direction);
+        if (ai === ""){
             ai = 'junyan';
         }
-        d = ais[ai](gridSize,snake,apples,direction);
+        // console.log(ai);
+        d = ais[ai].getDirection(gridSize,snake,apples,direction);
         if (["r","l","u","d"].includes(d)){
             direction = d;
         }
