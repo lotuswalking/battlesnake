@@ -10,7 +10,7 @@ function Junyan_getDirection(gridSize,snake,apples,direction){
     let queue = [start];
     let map = new Array(gridSize * gridSize).fill(0);
     let ends = apples.slice();
-    let cruiseAccount = gridSize +5;
+    let cruiseAccount = gridSize + 24 / apples.length;
     snake.forEach((e) => {
         map[e] = 1;
     });

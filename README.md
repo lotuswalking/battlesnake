@@ -69,6 +69,10 @@ ais['hdcola'] = {
 
 #### 运行你的AI蛇
 
+### 成成爸爸的AI贪吃蛇
+
+[成成爸爸的AI贪吃蛇] (https://lotuswalking.github.io/battlesnake/aisnake.html)
+
 如果要运行你的AI蛇，现在需要去手动修改 `aisnake.js` 的第83行
 
 https://github.com/HDCodePractice/battlesnake/blob/eb9e4048a7cfd152aa09ea33b4af53bce4057596/aisnake.js#L83
