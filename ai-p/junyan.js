@@ -20,15 +20,10 @@ function Junyan_getDirection(gridSize,snake,apples,direction){
         xLog("进入巡航模式,蛇头位置:",x,y,snake[0]);
         ends = [0];
         if(snake[0] === 0) {
-           
             xLog("巡航模式开始",snake[0]);
             cruise = true;
             needFindPath = false
-            
-            
         }
-       
-
     }
     if(cruise) {
             
@@ -40,7 +35,6 @@ function Junyan_getDirection(gridSize,snake,apples,direction){
             return newWay;
     }
     if(needFindPath) {       
-
         xLog("Queue before Loop:",queue[0],map);
         while(queue.length) {              
             let [x, y] = queue.shift();
